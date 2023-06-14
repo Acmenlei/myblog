@@ -1,7 +1,7 @@
 ---
 external: false
 title: 开发了一个专注于程序员的简历制作工具
-description: 介绍简历制作工具.
+description: 用写 Markdown 的方式来写简历，让写简历变得更简单.
 date: 2023-05-01
 ---
 
