@@ -12,31 +12,31 @@ date: 2023-06-13
 
 ## 梦开始的地方
 我以为有了一本学历，在校招过程中的路会好走一些，所以在把手上的复习资料复习完毕后，2022年7月6号，我满怀信心的投出了自己的第一份简历，投给了网易。
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3d1a549717d1441b918ae6f2dfb41f05~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_1.png)
 在接下来的几天又陆陆续续投递了腾讯、阿里巴巴、虾皮、小米、拼多多、快手... 对未来非常憧憬，甚至表示非大厂不去，所以，接下来的每天都在投简历和复习面试资料来回横跳，
 
 ## 互联网寒冬的开始
 在陆陆续续投递了40家中大厂的一个月后，大大小小的笔试做了很多家已经数不清了，自认为做的并不差，但没有任何面试邀约，在两个月后我收到了秋招的第一封感谢信，来自帆软。
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/13ff2f7ad84749b29fd9e02a9cf204f9~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_2.png)
 在牛客上刷帖子的同时，也看到了各大厂裁员的消息，都在盛行裁员降本增效，在BOSS上的沟通大都是已读不回，这一系列的现象，让我感受到互联网寒冬不是危言耸听，它真的来了，但我偏偏不信邪，还是头铁想挤进互联网的大门，其实更多的还是不甘吧，毕竟大学三分之二的时间都奉献给了代码。
 
 ## 第一家公司面试邀请
 做完笔试的第二天，我收到了来自途虎养车的面试邀请，从我投递第一份简历的时间开始到现在过去了**两个月**，我终于有了面试，真的非常感谢途虎，在这个寒冬给了我一次面试机会，让我看到了一些希望。
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f00df1b6eec24aa48134f3183414d0cc~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_3.png)
 对于这来之不易的面试机会，我也非常认真的对待，最后也如愿以偿走到了终面，我以为我的校招这就结束了，但这只是开始...hr同学说两周内出结果，我也非常自信的傻等，觉得自己一定是可以上的。一个月后出了结果（养鱼真的很严重），等来的是一封感谢信，很难受。后来听别的同学讲池子里有很多985、211的同学，这让我非常后悔自己傻等途虎的决，因为这一个月里我可以说是非常摆烂，简历投的很少，也没有任何公司约面，也怪自己没有认清现状，行情真的太差了。
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/16a519eb3c464791b2606661cdb1281b~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_4.png)
 
 ## 收拾心情继续出发
-经过这次被排序的经历后，我明白面完了HR面并不是就通过了，恰好这只是排序的开始，之后的每天我有在疯狂投简历。这个行情真的不海投根本没有机会。接下来我又面了**中信银行卡中心、腾讯云智、传化智联**，同时也陆陆续续收到了很多感谢信，值的庆幸的是给我面试机会的公司都走到了终面，再次进入了排序环节。
+经过这次被排序的经历后，我明白面完了HR面并不是就通过了，恰好这只是排序的开始，之后的每天我有在疯狂投简历。这个行情真的不海投根本没有机会。接下来我又面了**中信银行卡中心(对银行抱有一丝希望)、腾讯云智、传化智联**，同时也陆陆续续收到了很多感谢信，值的庆幸的是给我面试机会的公司都走到了终面，再次进入了排序环节。
 
 **中信银行卡中心一天面完了三面**
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/46ee4b9fce614fbf9892d1ddf5d0ac86~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_5.png)
 
 **腾讯云智大概一月走完流程**
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9bd401e6c8254bc6b70066f8c0859857~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_6.png)
 
 **传化智联**
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/fe72dfd5eca845e588aba858478493c4~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_7.png)
 
 至此已经接近12月份了，我的秋招也正式宣布结束，终于有时间歇一歇了，因为有三家公司在流程中排序，内心独白：“也不至于一个offer都拿不到吧？”
 
@@ -46,7 +46,7 @@ date: 2023-06-13
 ## 我的春招历程
 有了秋招的前车之鉴，我毫不犹豫先把还不错的公司都投递了一遍，收到了转转、一家杭州创业公司、爱用科技、灵雀云、快手的面试邀请。
 - 出师不利，转转是第一家面的，最终倒在了二面环节，不得不说二面架构师确实很厉害，问的东西都能问到点子上，这也让我完善了自己项目的不足之处。
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6a06517c49be4930829a6dc83907c9ef~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_8.png)
 
 - 第二家创业公司，笔试7道题目AC五道，整体难度中等吧，这家是我面过的时间最长的公司，面试一面两个半小时，但最终并没有约二面，难度也是有的
 
@@ -58,7 +58,7 @@ date: 2023-06-13
 
 ## 快手的意难平
 感谢快手给我的面试机会，面试体验真的很棒，业务面都是当天或次日出结果，进度非常快，最后也如愿以偿走完了流程，最终也拿到了HR姐姐的OC，给出了超出个人预期的薪资，但是最后还是无缘快手，因为我自己的学历是专升本，最终审批Offer卡住了，HR姐姐说部门Leader还是不太能接受。。。这件事情真的意难平，这是**迄今为止我收到的第一个大厂offer call**，最终还是要被收回了，但还是很感谢HR姐姐的安慰，希望未来有机会还能共事吧。
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/096aa922fce945668c1ac3c2fd7e5a1b~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/school_9.png)
 
 ## 结尾
 感谢你听我讲完这些，写到这里，我的校招经历基本上结束了，总共面试9家公司，六家终面，收到两个offer，其实我常常会想，计算机真的还有做的必要吗？那不走计算机这个行业我又能去做什么呢？好像也还是有很多同学没有找到工作吧？嗯...虽然现在还是失业状态，每天在投简历和写代码中度过，面试机会少之又少，但还是鼓励自己继续加油，振作起来，向前看，希望能收获自己想要的吧。

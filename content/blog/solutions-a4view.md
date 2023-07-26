@@ -13,7 +13,7 @@ date: 2023-07-25
 首先A4纸每一页的宽高分别是 `210mm` 和 `297mm`，换算成像素是 `794px` 和 `1123px`，如果当前 `HTML` 内容的高度超过了一页`A4`纸的高度，那么就需要创建新的一页，将超出的内容放置到下一页，以此类推。
 
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c3d407622c56440298dff5c1af6d9ce8~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/a4_1.png)
 
 ### 代码实现
 
@@ -64,11 +64,11 @@ export function splitPage(renderCV: HTMLElement) {
 
 ### 没有处理边界元素之前
 
-![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/29ce177d8b404352bc160d101e5a9d19~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/a4_2.png)
 
 ### 处理了边界元素之后
 
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ca32404c43c64bb28f6a40676cbd3631~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/a4_3.png)
 
 ### 代码实现
 有了思路，试试写出代码
@@ -193,7 +193,7 @@ export function splitPage(renderCV: HTMLElement) {
 #### 最终效果图
 ok，到此为止已经实现了我想要的效果
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f98b9dced7154664b962a7884ab36349~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/a4_4.png)
 
 
 ## 完整代码

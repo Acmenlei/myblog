@@ -58,9 +58,9 @@ date: 2023-07-12
 官方的解释是`:where`选择器在 `CSS3` 中引入，而 `:is` 选择器在 `CSS4` 中引入。因此，`:where` 选择器的兼容性会更好一些，并且`:is`的权重相比`:where`会更高
 
 **使用is的权重**
-![image.png](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/29103cda86bc4c5f983c621741c8054e~tplv-k3u1fbpfcp-watermark.image?)
+![使用is的权重](https://z4a.net/images/2023/07/26/css_1.png)
 
 **使用where的权重** 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/724bc46f3d2a4a549b5dcb5a83764457~tplv-k3u1fbpfcp-watermark.image?)
+![使用where的权重](https://z4a.net/images/2023/07/26/css_2.png)
 
 好了这篇文章就分享到这里，有任何发现后面再进行补充。

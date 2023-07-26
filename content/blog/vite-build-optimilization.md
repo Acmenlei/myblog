@@ -8,7 +8,7 @@ date: 2023-06-15
 ## 先说结论
 
 优化前是 `7.8M`，优化后是 `1.9M`，整体来说还是不错的，因为这个项目图片比较少，能做的优化还是非常有限的
-![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d824730ff27c450db53d5dff5e6bade4~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/vite_build_1.png)
 
 ## 怎么优化
 
@@ -58,7 +58,7 @@ defineConfig({
 npm run build
 ```
 
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/a5fdb673fb274650b8990895b3af6d9b~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/vite_build_2.png)
 
 从体积能看到，这里光`textbus`就已经占据了 1.3M 了，是时候该做点什么了。
 
@@ -118,8 +118,7 @@ npm i rollup-plugin-external-globals -D
 import externalGlobals from "rollup-plugin-external-globals";
 ```
 
-- 配置需要在打包阶段排除的依赖包
-  > 这里其实有个点需要注意一下，很多同学搞不懂，这个映射的变量应该填什么，特别是`npm`包和`cdn`的使用方式不同的情况，不理解其中的映射关系的话就会导致无从下手，笔者自己也是尝试了很多次才真正理解，比如`@textbus/editor`这个包使用的就是`editor`变量，而很多同学可能会将他们的映射关系写成`'@textbus/editor': 'textbus'`，因为 CDN 暴露的全局变量是`textbus`，那我们想当然的以为对应的就是`textbus`，结果打包就出现了各种错误提示，但其实`externalGlobals`插件只帮助我们处理映射关系，所以`@textbus/editor`它对应的应该是`textbus`变量下的`editor`实例，就如`@textbus/xxx`对应`textbus.xxx`，我们需要指定好他们之间的关系才不会出错。
+- 配置需要在打包阶段排除的依赖包，这里其实有个点需要注意一下，很多同学搞不懂，这个映射的变量应该填什么，特别是`npm`包和`cdn`的使用方式不同的情况，不理解其中的映射关系的话就会导致无从下手，笔者自己也是尝试了很多次才真正理解，比如`@textbus/editor`这个包使用的就是`editor`变量，而很多同学可能会将他们的映射关系写成`'@textbus/editor': 'textbus'`，因为 CDN 暴露的全局变量是`textbus`，那我们想当然的以为对应的就是`textbus`，结果打包就出现了各种错误提示，但其实`externalGlobals`插件只帮助我们处理映射关系，所以`@textbus/editor`它对应的应该是`textbus`变量下的`editor`实例，就如`@textbus/xxx`对应`textbus.xxx`，我们需要指定好他们之间的关系才不会出错。
 
 ```ts
 const globals = externalGlobals({
@@ -165,12 +164,12 @@ rollupOptions: {
 ```
 
 这样我们打包的效果就已经出来了，`textbus`、`jspdf` 等重量级选手就已经被移出了我们的打包文件
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e2773fdafc2445edb931343c9e06fb65~tplv-k3u1fbpfcp-watermark.image?)
+![image.png](https://z4a.net/images/2023/07/26/vite_build_3.png)
 
 ## 为什么不移除 vue 和 element-plus？
 
 本项目有多个依赖包依赖了`vue`，比如`element-plus`依赖`vue`，如果将`vue`移除在打包过程中会出现如下情况：
-![image.png](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/b1589a9fcf5c4db4aebb90b308e478fe~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
+![image.png](https://z4a.net/images/2023/07/26/vite_build_4.webp)
 这是因为将 `vue` 移除后，别的依赖包找不到 `vue` 了，随之要做的就是要将这个依赖包也移除，层层套娃，反而变得复杂起来，所以暂时不考虑将 `vue` 移除。
 
 ## 文件压缩
@@ -261,6 +260,6 @@ plugin: [
 ```
 
 - 执行打包后可以看到最终的压缩效果，有一张图片从`1000多kb`压缩到了`36kb`，可以说是非常给力了!
-  ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d725522fd3594b20a9deb4bd6a63e125~tplv-k3u1fbpfcp-watermark.image?)
+  ![image.png](https://z4a.net/images/2023/07/26/vite_build_5.png)
 
 ## 本章 Vite 优化结束

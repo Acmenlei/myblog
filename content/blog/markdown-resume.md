@@ -47,13 +47,13 @@ date: 2023-05-01
 
 #### Markdown 模式 & Dark 模式
 
-![Markdown 模式 & Dark模式](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d97bd20df1c846119bdc5d3fc2c46055~tplv-k3u1fbpfcp-watermark.image?)
+![Markdown 模式 & Dark模式](https://github.com/acmenlei/codecv/raw/master/docs/editor.webp)
 
 #### 内容模式 & Light 模式
 
-![内容模式 & Light模式](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6445e7e79cfd4e23972923f3b40ba238~tplv-k3u1fbpfcp-watermark.image?)
+![简历模板 & Light模式](https://github.com/acmenlei/codecv/raw/master/docs/templates.webp)
 
 ## 项目体验
 [在线编辑地址1](https://codeleilei.gitee.io/markdown2pdf)
 &nbsp;&nbsp;&nbsp;
-[在线编辑地址2](https://acmenlei.github.io/markdown-resume-to-pdf/dist/)
+[在线编辑地址2](https://acmenlei.github.io/codecv/dist/)
